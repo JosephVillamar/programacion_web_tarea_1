@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio solo lectura</title>
+</head>
+<body>
+    <form action="registrardatos.php" method="post">
+        <label for="texto">Texto:</label>
+        <input type="text" id="texto" value="Texto de ejemplo" readonly>
+        <br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" value="Contraseña" readonly>
+        <br>
+        <label for="areaTexto">Área de Texto:</label><br>
+        <textarea rows="5" cols="40 name="control5" readonly>Contenido del área de texto</textarea><br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </form>
+</body>
+</html>

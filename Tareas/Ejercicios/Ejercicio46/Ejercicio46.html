@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio label</title>
+</head>
+<body>
+    <h1>Califica este sitio</h1>
+    <form action="registrardatos.php" method="post">
+        <fieldset>
+            <legend>Formulario de calificación de pagina</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <label for="calificacion">Calificación:</label>
+        <select id="calificacion" name="calificacion">
+            <option value="">Seleccione una opción</option>
+            <option value="1">1 (Muy malo)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Promedio)</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10 (Excelente)</option>
+        </select>
+        <br><br>
+        <button type="submit">Enviar Calificación</button>
+    </form>
+        </fieldset>
+</body>
+</html>
